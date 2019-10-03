@@ -1,0 +1,3 @@
+/Users/jamine/Documents/GitHub/CS148/build/CMakeFiles/cs148opengl4.dir
+/Users/jamine/Documents/GitHub/CS148/build/CMakeFiles/ALL_BUILD.dir
+/Users/jamine/Documents/GitHub/CS148/build/CMakeFiles/ZERO_CHECK.dir

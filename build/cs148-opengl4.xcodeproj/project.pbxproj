@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0B03CA3DDCA24B6BB91C2034 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6A14D40EC3E4FB3AAD244B0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A21C7E11F5CF4189870CF095 /* CMake Rules */,
+			);
+			dependencies = (
+				4F21DA121C32419E94276F10 /* PBXTargetDependency */,
+				14F8738B6DB4434C9D9AED09 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6AB540969D684584B4992002 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D228B72B9C7C409FB82A7E92 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C024BB76C3054F9FAC763F47 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		019252413E4840518ACE2CCC /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.cpp */ = {isa = PBXBuildFile; fileRef = 189370926B6244F884E9AE3F /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.cpp */; };
+		023C635C4CA4443E8CC54952 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.h */ = {isa = PBXBuildFile; fileRef = C32017CBE89742C4B4CF0F1A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.h */; };
+		0340D4934486426098433D03 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.h */ = {isa = PBXBuildFile; fileRef = DBE40339D62446EB9C125F84 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.h */; };
+		04AF97D38EC947A18EAD3474 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.cpp */ = {isa = PBXBuildFile; fileRef = 1EE36484FD454AD2B54EE32F /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.cpp */; };
+		0B604D134F754637BBE5D9E0 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.cpp */ = {isa = PBXBuildFile; fileRef = 22749C76B72E491B84872043 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.cpp */; };
+		0DDC3B5F717B49DB8B63A002 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.cpp */ = {isa = PBXBuildFile; fileRef = F8E50250111F45DFAB08DAD0 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.cpp */; };
+		0E3996322AD44C4EAA5FC9B9 /* /Users/jamine/Documents/GitHub/CS148/common/core.h */ = {isa = PBXBuildFile; fileRef = 362D05FE00FB458EB9BAD112 /* /Users/jamine/Documents/GitHub/CS148/common/core.h */; };
+		0E4239C0E9BC439EA194E32A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.h */ = {isa = PBXBuildFile; fileRef = 04C41823C0F047FF85143B60 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.h */; };
+		11CB7EEF29084D33B4B0FC15 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/LightProperties.h */ = {isa = PBXBuildFile; fileRef = A6D779BBF8A8416E87D591D1 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/LightProperties.h */; };
+		13E132C381D34D509E2A57A2 /* /Users/jamine/Documents/GitHub/CS148/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 486726A7CFAD487E933DE344 /* /Users/jamine/Documents/GitHub/CS148/CMakeLists.txt */; };
+		1799364826304824B9893A88 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.h */ = {isa = PBXBuildFile; fileRef = 7A695F66ED4F47239DD2D8A3 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.h */; };
+		186A13DB348E4BACBE1FEE6E /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.h */ = {isa = PBXBuildFile; fileRef = D3FD5E44A584446ABA9FDCF5 /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.h */; };
+		1A97563F018D4C10A25B7637 /* /Users/jamine/Documents/GitHub/CS148/main.cpp */ = {isa = PBXBuildFile; fileRef = BD82D04E5F484F2F9F27DE80 /* /Users/jamine/Documents/GitHub/CS148/main.cpp */; };
+		1B51055775D24EA391DE6B39 /* /Users/jamine/Documents/GitHub/CS148/common/Application.h */ = {isa = PBXBuildFile; fileRef = BAEAF2D6E254445E9F0F07A3 /* /Users/jamine/Documents/GitHub/CS148/common/Application.h */; };
+		21E952675B34488BBC34C434 /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.cpp */ = {isa = PBXBuildFile; fileRef = CA9AF428CCE54C9C8533C8A0 /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.cpp */; };
+		297F9B16FC0D4E3480A5E5E3 /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.h */ = {isa = PBXBuildFile; fileRef = 0473F5A16B4645CAB3DE0BDC /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.h */; };
+		2C15B17012B244B6986143A0 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.cpp */ = {isa = PBXBuildFile; fileRef = 89DDD885CACF4D79A4091A67 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.cpp */; };
+		2F0BAF04D6FD406C9FD3F845 /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.cpp */ = {isa = PBXBuildFile; fileRef = 16777FED537B49BE9BCDB506 /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.cpp */; };
+		37E4069D6EA2428CAAD1A4DF /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.cpp */ = {isa = PBXBuildFile; fileRef = 1008CDDFD66A4A8EBD944C46 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.cpp */; };
+		3FFF142D6F1E426FB3AFD64E /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.cpp */ = {isa = PBXBuildFile; fileRef = EA05D7F68B7346F38F165000 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.cpp */; };
+		40E58BE224E448F786C443F3 /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.h */ = {isa = PBXBuildFile; fileRef = A79BA972F3BF43E99772E7F2 /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.h */; };
+		41C0747EA3EB4BA1BD3CD8CD /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.h */ = {isa = PBXBuildFile; fileRef = F003F031B12E4A7EA125D2E4 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.h */; };
+		45E6FE21224B4CA79668F43B /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.h */ = {isa = PBXBuildFile; fileRef = A2ADDF337C2042228830A775 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.h */; };
+		4DC70884FE174977B26DC302 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.h */ = {isa = PBXBuildFile; fileRef = 0A881780F2944EA0A4863429 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.h */; };
+		5A1A529AC84142D69B83E995 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.h */ = {isa = PBXBuildFile; fileRef = 99E840725282493CB1C162D1 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.h */; };
+		6260CE63FB14432FA7532B50 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.h */ = {isa = PBXBuildFile; fileRef = 636107D4542848528390E0E7 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.h */; };
+		76A6E5E770464349A6C2BD92 /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.cpp */ = {isa = PBXBuildFile; fileRef = 8B45FFEEF5DB4FD39A6DE38F /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.cpp */; };
+		7E4BE0F948384DCABBB06AE9 /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.h */ = {isa = PBXBuildFile; fileRef = 929C5A8B5FE445029A71C90B /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.h */; };
+		853269CA0F1E405386186D76 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 5B9355D1B2CB461D874579EC /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.cpp */; };
+		8FA385EA447A443180D03B9A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.cpp */ = {isa = PBXBuildFile; fileRef = AE07DC36BEA445A59B84AAE8 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.cpp */; };
+		946613AF75ED43E6ADD7DD07 /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.cpp */ = {isa = PBXBuildFile; fileRef = 98EB310E95DC4E838A210FE7 /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.cpp */; };
+		961E9CE77CAD44BDAE05BD1B /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.h */ = {isa = PBXBuildFile; fileRef = 87D20B28F8F545819D6557A6 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.h */; };
+		97C55D4541004483B5899F9B /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.cpp */ = {isa = PBXBuildFile; fileRef = 86EB9E2587E24F7FBBD5D1EF /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.cpp */; };
+		9F77179DA34848E28806BA7C /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.h */ = {isa = PBXBuildFile; fileRef = 32811786C4B24A97AC702B2E /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.h */; };
+		A32825F7409E4944A0F586F2 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.h */ = {isa = PBXBuildFile; fileRef = EB721609739241D49DD36C9A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.h */; };
+		A51D40DC13824AEABF09FF54 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.cpp */ = {isa = PBXBuildFile; fileRef = DE852B7A756541F8A1D29DFC /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.cpp */; };
+		B65F4D2EC4F64274B5641E20 /* /Users/jamine/Documents/GitHub/CS148/common/common.h */ = {isa = PBXBuildFile; fileRef = 0EB23C5379064C1E8A3B6078 /* /Users/jamine/Documents/GitHub/CS148/common/common.h */; };
+		B7BFDDFDCC4C4BB5A3318538 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.cpp */ = {isa = PBXBuildFile; fileRef = F88907FD0D264397822609CD /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.cpp */; };
+		BEED2FAFA26D41E9BF43BCDC /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 95C0B2352855485FA0D1A571 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.cpp */; };
+		C0347A40EA6B4FD1A64F931E /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.cpp */ = {isa = PBXBuildFile; fileRef = 93100311960B4FBAB7213C81 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.cpp */; };
+		C59BC58F9B594CA382B1A95F /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.cpp */ = {isa = PBXBuildFile; fileRef = 2032F6C2085C4E3881B1296C /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.cpp */; };
+		C614C10ECE8249D48FFC9B30 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.h */ = {isa = PBXBuildFile; fileRef = DFB82F744AFF46088982124F /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.h */; };
+		CFA9B3CDB9C5421B97D8D801 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.h */ = {isa = PBXBuildFile; fileRef = 96C21C26CB704063AB52B95F /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.h */; };
+		D1337997443D469D9EDCF6E0 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.cpp */ = {isa = PBXBuildFile; fileRef = 680E3C5AEC0948A28B317C59 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.cpp */; };
+		D94E9A6FB36C4CCEAF162239 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.h */ = {isa = PBXBuildFile; fileRef = BF300A7779B74E36959A8C67 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.h */; };
+		D9F35EAFCE6943D0A5545CA8 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.cpp */ = {isa = PBXBuildFile; fileRef = 66E0101B2B974A588A6094E5 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.cpp */; };
+		DD14F8A17B814DFFBA602A42 /* /Users/jamine/Documents/GitHub/CS148/common/Application.cpp */ = {isa = PBXBuildFile; fileRef = 818DEF97C8B0451A90F306E8 /* /Users/jamine/Documents/GitHub/CS148/common/Application.cpp */; };
+		E6C29DC9E4E8411AAFEBEA2F /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.h */ = {isa = PBXBuildFile; fileRef = BC0CDA31F7BA45B2A490ECA9 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.h */; };
+		E92F4229CEF8418E95F3825E /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.h */ = {isa = PBXBuildFile; fileRef = 9F222DEC988A4546AAE32376 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.h */; };
+		E933873A6B9E44A081253250 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.h */ = {isa = PBXBuildFile; fileRef = 6D87A359AE594AE781892524 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.h */; };
+		F05C79E4649446C480BFC2CE /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.h */ = {isa = PBXBuildFile; fileRef = 6E4933DF4A0C4777A95A52DD /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.h */; };
+		F66BDDC276844C74BEB44A74 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.cpp */ = {isa = PBXBuildFile; fileRef = 54D58592B5694D30A53BD1CA /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.cpp */; };
+		F720858ACFB6409295B83A09 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.h */ = {isa = PBXBuildFile; fileRef = 66D9C5008C274C5FAFC6BA50 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.h */; };
+		F9BCD8E54943484B98B9CFF1 /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.cpp */ = {isa = PBXBuildFile; fileRef = 3A495B3E2A134C29AC8FA47E /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.cpp */; };
+		FC8E57761941430F9AEE3D7E /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.cpp */ = {isa = PBXBuildFile; fileRef = 2ABD6E3E145E4610AF1AE0F5 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		15CB30245C9842D18A05305F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5B47CBB27EFF41FF95DD932E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D983173633DF418A93E4DF2E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FE374690E98E4BD1ACE205B0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		595ED99CB9DA4E22A0347611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE119D0766C1488E83FF1CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB540969D684584B4992002;
+			remoteInfo = ZERO_CHECK;
+		};
+		6B947B2C43C545D5913BE09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE119D0766C1488E83FF1CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA020372ACC84E36AF2AE72B;
+			remoteInfo = cs148opengl4;
+		};
+		A2289167F9164623A64DA047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE119D0766C1488E83FF1CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB540969D684584B4992002;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0473F5A16B4645CAB3DE0BDC /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MediaLayer.h; path = common/MediaLayer.h; sourceTree = SOURCE_ROOT; };
+		04C41823C0F047FF85143B60 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ForwardRenderer.h; path = common/Rendering/ForwardRenderer.h; sourceTree = SOURCE_ROOT; };
+		0A881780F2944EA0A4863429 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Assignment3.h; path = assignment3/Assignment3.h; sourceTree = SOURCE_ROOT; };
+		0EB23C5379064C1E8A3B6078 /* /Users/jamine/Documents/GitHub/CS148/common/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = common/common.h; sourceTree = SOURCE_ROOT; };
+		1008CDDFD66A4A8EBD944C46 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture.cpp; path = common/Rendering/Textures/Texture.cpp; sourceTree = SOURCE_ROOT; };
+		16777FED537B49BE9BCDB506 /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Assignment4.cpp; path = assignment4/Assignment4.cpp; sourceTree = SOURCE_ROOT; };
+		189370926B6244F884E9AE3F /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrimitiveCreator.cpp; path = common/Utility/Mesh/Simple/PrimitiveCreator.cpp; sourceTree = SOURCE_ROOT; };
+		1EE36484FD454AD2B54EE32F /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scene.cpp; path = common/Scene/Scene.cpp; sourceTree = SOURCE_ROOT; };
+		2032F6C2085C4E3881B1296C /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture2D.cpp; path = common/Rendering/Textures/Texture2D.cpp; sourceTree = SOURCE_ROOT; };
+		22749C76B72E491B84872043 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PerspectiveCamera.cpp; path = common/Scene/Camera/PerspectiveCamera.cpp; sourceTree = SOURCE_ROOT; };
+		2ABD6E3E145E4610AF1AE0F5 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Renderer.cpp; path = common/Rendering/Renderer.cpp; sourceTree = SOURCE_ROOT; };
+		32811786C4B24A97AC702B2E /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Assignment2.h; path = assignment2/Assignment2.h; sourceTree = SOURCE_ROOT; };
+		362D05FE00FB458EB9BAD112 /* /Users/jamine/Documents/GitHub/CS148/common/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = common/core.h; sourceTree = SOURCE_ROOT; };
+		3A495B3E2A134C29AC8FA47E /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Assignment5.cpp; path = assignment5/Assignment5.cpp; sourceTree = SOURCE_ROOT; };
+		486726A7CFAD487E933DE344 /* /Users/jamine/Documents/GitHub/CS148/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		54D58592B5694D30A53BD1CA /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneObject.cpp; path = common/Scene/SceneObject.cpp; sourceTree = SOURCE_ROOT; };
+		5774E21EFABD4EE49CAC355E /* /Users/jamine/Documents/GitHub/CS148/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5B9355D1B2CB461D874579EC /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = common/Scene/Camera/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		636107D4542848528390E0E7 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CubeMapShader.h; path = common/Rendering/Shaders/CubeMapShader.h; sourceTree = SOURCE_ROOT; };
+		66D9C5008C274C5FAFC6BA50 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Camera.h; path = common/Scene/Camera/Camera.h; sourceTree = SOURCE_ROOT; };
+		66E0101B2B974A588A6094E5 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Assignment3.cpp; path = assignment3/Assignment3.cpp; sourceTree = SOURCE_ROOT; };
+		680E3C5AEC0948A28B317C59 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlinnPhongShader.cpp; path = common/Rendering/Shaders/BlinnPhongShader.cpp; sourceTree = SOURCE_ROOT; };
+		6D87A359AE594AE781892524 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MeshLoader.h; path = common/Utility/Mesh/Loading/MeshLoader.h; sourceTree = SOURCE_ROOT; };
+		6E4933DF4A0C4777A95A52DD /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BlinnPhongShader.h; path = common/Rendering/Shaders/BlinnPhongShader.h; sourceTree = SOURCE_ROOT; };
+		7A695F66ED4F47239DD2D8A3 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Scene.h; path = common/Scene/Scene.h; sourceTree = SOURCE_ROOT; };
+		818DEF97C8B0451A90F306E8 /* /Users/jamine/Documents/GitHub/CS148/common/Application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Application.cpp; path = common/Application.cpp; sourceTree = SOURCE_ROOT; };
+		86EB9E2587E24F7FBBD5D1EF /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderProgram.cpp; path = common/Rendering/Shaders/ShaderProgram.cpp; sourceTree = SOURCE_ROOT; };
+		87D20B28F8F545819D6557A6 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderProgram.h; path = common/Rendering/Shaders/ShaderProgram.h; sourceTree = SOURCE_ROOT; };
+		89DDD885CACF4D79A4091A67 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureLoader.cpp; path = common/Utility/Texture/TextureLoader.cpp; sourceTree = SOURCE_ROOT; };
+		8B45FFEEF5DB4FD39A6DE38F /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Assignment1.cpp; path = assignment1/Assignment1.cpp; sourceTree = SOURCE_ROOT; };
+		929C5A8B5FE445029A71C90B /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Assignment4.h; path = assignment4/Assignment4.h; sourceTree = SOURCE_ROOT; };
+		93100311960B4FBAB7213C81 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MeshLoader.cpp; path = common/Utility/Mesh/Loading/MeshLoader.cpp; sourceTree = SOURCE_ROOT; };
+		95C0B2352855485FA0D1A571 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ForwardRenderer.cpp; path = common/Rendering/ForwardRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		96C21C26CB704063AB52B95F /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextureLoader.h; path = common/Utility/Texture/TextureLoader.h; sourceTree = SOURCE_ROOT; };
+		98EB310E95DC4E838A210FE7 /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MediaLayer.cpp; path = common/MediaLayer.cpp; sourceTree = SOURCE_ROOT; };
+		99E840725282493CB1C162D1 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EpicShader.h; path = common/Rendering/Shaders/EpicShader.h; sourceTree = SOURCE_ROOT; };
+		9F222DEC988A4546AAE32376 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SceneObject.h; path = common/Scene/SceneObject.h; sourceTree = SOURCE_ROOT; };
+		A2ADDF337C2042228830A775 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PerspectiveCamera.h; path = common/Scene/Camera/PerspectiveCamera.h; sourceTree = SOURCE_ROOT; };
+		A6D779BBF8A8416E87D591D1 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/LightProperties.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LightProperties.h; path = common/Scene/Light/LightProperties.h; sourceTree = SOURCE_ROOT; };
+		A79BA972F3BF43E99772E7F2 /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Assignment1.h; path = assignment1/Assignment1.h; sourceTree = SOURCE_ROOT; };
+		AE07DC36BEA445A59B84AAE8 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CubeMapTexture.cpp; path = common/Rendering/Textures/CubeMapTexture.cpp; sourceTree = SOURCE_ROOT; };
+		B820FBAC06A6409E8FB62A95 /* cs148opengl4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cs148opengl4; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEAF2D6E254445E9F0F07A3 /* /Users/jamine/Documents/GitHub/CS148/common/Application.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Application.h; path = common/Application.h; sourceTree = SOURCE_ROOT; };
+		BC0CDA31F7BA45B2A490ECA9 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CubeMapTexture.h; path = common/Rendering/Textures/CubeMapTexture.h; sourceTree = SOURCE_ROOT; };
+		BD82D04E5F484F2F9F27DE80 /* /Users/jamine/Documents/GitHub/CS148/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		BF300A7779B74E36959A8C67 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Renderer.h; path = common/Rendering/Renderer.h; sourceTree = SOURCE_ROOT; };
+		C32017CBE89742C4B4CF0F1A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture.h; path = common/Rendering/Textures/Texture.h; sourceTree = SOURCE_ROOT; };
+		CA9AF428CCE54C9C8533C8A0 /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Assignment2.cpp; path = assignment2/Assignment2.cpp; sourceTree = SOURCE_ROOT; };
+		D3FD5E44A584446ABA9FDCF5 /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Assignment5.h; path = assignment5/Assignment5.h; sourceTree = SOURCE_ROOT; };
+		DBE40339D62446EB9C125F84 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Light.h; path = common/Scene/Light/Light.h; sourceTree = SOURCE_ROOT; };
+		DE852B7A756541F8A1D29DFC /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Light.cpp; path = common/Scene/Light/Light.cpp; sourceTree = SOURCE_ROOT; };
+		DFB82F744AFF46088982124F /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture2D.h; path = common/Rendering/Textures/Texture2D.h; sourceTree = SOURCE_ROOT; };
+		EA05D7F68B7346F38F165000 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderingObject.cpp; path = common/Rendering/RenderingObject.cpp; sourceTree = SOURCE_ROOT; };
+		EB721609739241D49DD36C9A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderingObject.h; path = common/Rendering/RenderingObject.h; sourceTree = SOURCE_ROOT; };
+		F003F031B12E4A7EA125D2E4 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PrimitiveCreator.h; path = common/Utility/Mesh/Simple/PrimitiveCreator.h; sourceTree = SOURCE_ROOT; };
+		F88907FD0D264397822609CD /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CubeMapShader.cpp; path = common/Rendering/Shaders/CubeMapShader.cpp; sourceTree = SOURCE_ROOT; };
+		F8E50250111F45DFAB08DAD0 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EpicShader.cpp; path = common/Rendering/Shaders/EpicShader.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A7EFB41D56E4D78A829ACCF /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				DE852B7A756541F8A1D29DFC /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.cpp */,
+				DBE40339D62446EB9C125F84 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.h */,
+				A6D779BBF8A8416E87D591D1 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/LightProperties.h */,
+			);
+			name = Light;
+			sourceTree = "<group>";
+		};
+		35304A2F7B7E44CA9AD52527 /* Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				6198F276FA5B49659472C157 /* Loading */,
+				A105F9A2D314411C9611DE84 /* Simple */,
+			);
+			name = Mesh;
+			sourceTree = "<group>";
+		};
+		3DC757E7B4C8475696E20912 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5B9355D1B2CB461D874579EC /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.cpp */,
+				66D9C5008C274C5FAFC6BA50 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.h */,
+				22749C76B72E491B84872043 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.cpp */,
+				A2ADDF337C2042228830A775 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.h */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		45E16486E4314C0A8C15DA50 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2086387BF416F95F4ECFE /* CMake Rules */,
+				5774E21EFABD4EE49CAC355E /* /Users/jamine/Documents/GitHub/CS148/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		52A591FD3B0A44948B87BECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B820FBAC06A6409E8FB62A95 /* cs148opengl4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5447182742604636907DC3C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B45FFEEF5DB4FD39A6DE38F /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.cpp */,
+				CA9AF428CCE54C9C8533C8A0 /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.cpp */,
+				66E0101B2B974A588A6094E5 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.cpp */,
+				16777FED537B49BE9BCDB506 /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.cpp */,
+				3A495B3E2A134C29AC8FA47E /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.cpp */,
+				BD82D04E5F484F2F9F27DE80 /* /Users/jamine/Documents/GitHub/CS148/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		55166A3DAC1947AA8A158011 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				6086A915F1DD49C48442026D /* Shaders */,
+				B4D3F5556C994F5A96117D4A /* Textures */,
+				95C0B2352855485FA0D1A571 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.cpp */,
+				04C41823C0F047FF85143B60 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.h */,
+				2ABD6E3E145E4610AF1AE0F5 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.cpp */,
+				BF300A7779B74E36959A8C67 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.h */,
+				EA05D7F68B7346F38F165000 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.cpp */,
+				EB721609739241D49DD36C9A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.h */,
+			);
+			name = Rendering;
+			sourceTree = "<group>";
+		};
+		595CE314F7C34D1EBBE88AFA = {
+			isa = PBXGroup;
+			children = (
+				5F9D0B84271F45DAA0AB2F2B /* cs148opengl4 */,
+				45E16486E4314C0A8C15DA50 /* ALL_BUILD */,
+				52A591FD3B0A44948B87BECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F9D0B84271F45DAA0AB2F2B /* cs148opengl4 */ = {
+			isa = PBXGroup;
+			children = (
+				5447182742604636907DC3C4 /* Source Files */,
+				82E783AE23134138A99EACB4 /* common */,
+				B3A117CB68834D55AFEBDDA2 /* Header Files */,
+				486726A7CFAD487E933DE344 /* /Users/jamine/Documents/GitHub/CS148/CMakeLists.txt */,
+			);
+			name = cs148opengl4;
+			sourceTree = "<group>";
+		};
+		6086A915F1DD49C48442026D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				680E3C5AEC0948A28B317C59 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.cpp */,
+				6E4933DF4A0C4777A95A52DD /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.h */,
+				F88907FD0D264397822609CD /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.cpp */,
+				636107D4542848528390E0E7 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.h */,
+				F8E50250111F45DFAB08DAD0 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.cpp */,
+				99E840725282493CB1C162D1 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.h */,
+				86EB9E2587E24F7FBBD5D1EF /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.cpp */,
+				87D20B28F8F545819D6557A6 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.h */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		6198F276FA5B49659472C157 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				93100311960B4FBAB7213C81 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.cpp */,
+				6D87A359AE594AE781892524 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.h */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		706F9C3437D843749D12DD0A /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				89DDD885CACF4D79A4091A67 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.cpp */,
+				96C21C26CB704063AB52B95F /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.h */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		809F11E34D594D659DEBCD9B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				35304A2F7B7E44CA9AD52527 /* Mesh */,
+				706F9C3437D843749D12DD0A /* Texture */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		82E783AE23134138A99EACB4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				55166A3DAC1947AA8A158011 /* Rendering */,
+				922CF59FBF184D97B7B04EDA /* Scene */,
+				809F11E34D594D659DEBCD9B /* Utility */,
+				818DEF97C8B0451A90F306E8 /* /Users/jamine/Documents/GitHub/CS148/common/Application.cpp */,
+				BAEAF2D6E254445E9F0F07A3 /* /Users/jamine/Documents/GitHub/CS148/common/Application.h */,
+				98EB310E95DC4E838A210FE7 /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.cpp */,
+				0473F5A16B4645CAB3DE0BDC /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.h */,
+				0EB23C5379064C1E8A3B6078 /* /Users/jamine/Documents/GitHub/CS148/common/common.h */,
+				362D05FE00FB458EB9BAD112 /* /Users/jamine/Documents/GitHub/CS148/common/core.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		922CF59FBF184D97B7B04EDA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				3DC757E7B4C8475696E20912 /* Camera */,
+				0A7EFB41D56E4D78A829ACCF /* Light */,
+				1EE36484FD454AD2B54EE32F /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.cpp */,
+				7A695F66ED4F47239DD2D8A3 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.h */,
+				54D58592B5694D30A53BD1CA /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.cpp */,
+				9F222DEC988A4546AAE32376 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.h */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		A105F9A2D314411C9611DE84 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				189370926B6244F884E9AE3F /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.cpp */,
+				F003F031B12E4A7EA125D2E4 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.h */,
+			);
+			name = Simple;
+			sourceTree = "<group>";
+		};
+		B3A117CB68834D55AFEBDDA2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79BA972F3BF43E99772E7F2 /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.h */,
+				32811786C4B24A97AC702B2E /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.h */,
+				0A881780F2944EA0A4863429 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.h */,
+				929C5A8B5FE445029A71C90B /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.h */,
+				D3FD5E44A584446ABA9FDCF5 /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B4D3F5556C994F5A96117D4A /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				AE07DC36BEA445A59B84AAE8 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.cpp */,
+				BC0CDA31F7BA45B2A490ECA9 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.h */,
+				1008CDDFD66A4A8EBD944C46 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.cpp */,
+				C32017CBE89742C4B4CF0F1A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.h */,
+				2032F6C2085C4E3881B1296C /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.cpp */,
+				DFB82F744AFF46088982124F /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.h */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		C1D2086387BF416F95F4ECFE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA020372ACC84E36AF2AE72B /* cs148opengl4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E009CC31B74A3D96946248 /* Build configuration list for PBXNativeTarget "cs148opengl4" */;
+			buildPhases = (
+				50CDF84CFCD84CFEAF0B904C /* Sources */,
+				B4A1C2A19CF9421B9806AE5B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCA4F6175B140B8A7AB01FF /* PBXTargetDependency */,
+			);
+			name = cs148opengl4;
+			productName = cs148opengl4;
+			productReference = B820FBAC06A6409E8FB62A95 /* cs148opengl4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE119D0766C1488E83FF1CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 06E1B857B5364F38A8E380CE /* Build configuration list for PBXProject "cs148-opengl4" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				15CB30245C9842D18A05305F /* Debug */,
+				D983173633DF418A93E4DF2E /* Release */,
+				FE374690E98E4BD1ACE205B0 /* MinSizeRel */,
+				5B47CBB27EFF41FF95DD932E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 595CE314F7C34D1EBBE88AFA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0B03CA3DDCA24B6BB91C2034 /* ALL_BUILD */,
+				6AB540969D684584B4992002 /* ZERO_CHECK */,
+				BA020372ACC84E36AF2AE72B /* cs148opengl4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D6C7AD207B54F20812A0286 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8E8A30D8DEDC40DA96ED342E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A21C7E11F5CF4189870CF095 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamine/Documents/GitHub/CS148/build -f /Users/jamine/Documents/GitHub/CS148/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B4A1C2A19CF9421B9806AE5B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamine/Documents/GitHub/CS148/build -f /Users/jamine/Documents/GitHub/CS148/build/CMakeScripts/cs148opengl4_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C024BB76C3054F9FAC763F47 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamine/Documents/GitHub/CS148/build -f /Users/jamine/Documents/GitHub/CS148/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CDF84CFCD84CFEAF0B904C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A6E5E770464349A6C2BD92 /* /Users/jamine/Documents/GitHub/CS148/assignment1/Assignment1.cpp */,
+				21E952675B34488BBC34C434 /* /Users/jamine/Documents/GitHub/CS148/assignment2/Assignment2.cpp */,
+				D9F35EAFCE6943D0A5545CA8 /* /Users/jamine/Documents/GitHub/CS148/assignment3/Assignment3.cpp */,
+				2F0BAF04D6FD406C9FD3F845 /* /Users/jamine/Documents/GitHub/CS148/assignment4/Assignment4.cpp */,
+				F9BCD8E54943484B98B9CFF1 /* /Users/jamine/Documents/GitHub/CS148/assignment5/Assignment5.cpp */,
+				DD14F8A17B814DFFBA602A42 /* /Users/jamine/Documents/GitHub/CS148/common/Application.cpp */,
+				946613AF75ED43E6ADD7DD07 /* /Users/jamine/Documents/GitHub/CS148/common/MediaLayer.cpp */,
+				BEED2FAFA26D41E9BF43BCDC /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/ForwardRenderer.cpp */,
+				FC8E57761941430F9AEE3D7E /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Renderer.cpp */,
+				3FFF142D6F1E426FB3AFD64E /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/RenderingObject.cpp */,
+				D1337997443D469D9EDCF6E0 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/BlinnPhongShader.cpp */,
+				B7BFDDFDCC4C4BB5A3318538 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/CubeMapShader.cpp */,
+				0DDC3B5F717B49DB8B63A002 /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/EpicShader.cpp */,
+				97C55D4541004483B5899F9B /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Shaders/ShaderProgram.cpp */,
+				8FA385EA447A443180D03B9A /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/CubeMapTexture.cpp */,
+				37E4069D6EA2428CAAD1A4DF /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture.cpp */,
+				C59BC58F9B594CA382B1A95F /* /Users/jamine/Documents/GitHub/CS148/common/Rendering/Textures/Texture2D.cpp */,
+				853269CA0F1E405386186D76 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/Camera.cpp */,
+				0B604D134F754637BBE5D9E0 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Camera/PerspectiveCamera.cpp */,
+				A51D40DC13824AEABF09FF54 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Light/Light.cpp */,
+				04AF97D38EC947A18EAD3474 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/Scene.cpp */,
+				F66BDDC276844C74BEB44A74 /* /Users/jamine/Documents/GitHub/CS148/common/Scene/SceneObject.cpp */,
+				C0347A40EA6B4FD1A64F931E /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Loading/MeshLoader.cpp */,
+				019252413E4840518ACE2CCC /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Mesh/Simple/PrimitiveCreator.cpp */,
+				2C15B17012B244B6986143A0 /* /Users/jamine/Documents/GitHub/CS148/common/Utility/Texture/TextureLoader.cpp */,
+				1A97563F018D4C10A25B7637 /* /Users/jamine/Documents/GitHub/CS148/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F8738B6DB4434C9D9AED09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB540969D684584B4992002 /* ZERO_CHECK */;
+			targetProxy = 595ED99CB9DA4E22A0347611 /* PBXContainerItemProxy */;
+		};
+		1BCA4F6175B140B8A7AB01FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB540969D684584B4992002 /* ZERO_CHECK */;
+			targetProxy = A2289167F9164623A64DA047 /* PBXContainerItemProxy */;
+		};
+		4F21DA121C32419E94276F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA020372ACC84E36AF2AE72B /* cs148opengl4 */;
+			targetProxy = 6B947B2C43C545D5913BE09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B628D4DF554C5BBE44FFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0B0B8BF756184B5C90D0099C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		17AD88B6F88948D2992E0444 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks,/Users/jamine/Documents/GitHub/CS148/external/SDL2/osx);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SHADER_PATH=/Users/jamine/Documents/GitHub/CS148/shaders'","'ASSET_PATH=/Users/jamine/Documents/GitHub/CS148/assets'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamine/Documents/GitHub/CS148/.,/Users/jamine/Documents/GitHub/CS148/./external/glm,/Users/jamine/Documents/GitHub/CS148/./external/glew/include,/Users/jamine/Documents/GitHub/CS148/./external/assimp/include,/Users/jamine/Documents/GitHub/CS148/./external/freeimage/distrib/osx);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jamine/Documents/GitHub/CS148/external/SDL2/osx;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wall -std=c++11 -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework SDL2 /Users/jamine/Documents/GitHub/CS148/external/glew/distrib/osx/lib/libGLEW.a /Users/jamine/Documents/GitHub/CS148/external/assimp/distrib/osx/libassimp.dylib /Users/jamine/Documents/GitHub/CS148/external/freeimage/distrib/osx/libfreeimage.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cs148opengl4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2746EE7178FD44E199B19A0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks,/Users/jamine/Documents/GitHub/CS148/external/SDL2/osx);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SHADER_PATH=/Users/jamine/Documents/GitHub/CS148/shaders'","'ASSET_PATH=/Users/jamine/Documents/GitHub/CS148/assets'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamine/Documents/GitHub/CS148/.,/Users/jamine/Documents/GitHub/CS148/./external/glm,/Users/jamine/Documents/GitHub/CS148/./external/glew/include,/Users/jamine/Documents/GitHub/CS148/./external/assimp/include,/Users/jamine/Documents/GitHub/CS148/./external/freeimage/distrib/osx);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jamine/Documents/GitHub/CS148/external/SDL2/osx;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wall -std=c++11 -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework SDL2 /Users/jamine/Documents/GitHub/CS148/external/glew/distrib/osx/lib/libGLEW.a /Users/jamine/Documents/GitHub/CS148/external/assimp/distrib/osx/libassimp.dylib /Users/jamine/Documents/GitHub/CS148/external/freeimage/distrib/osx/libfreeimage.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cs148opengl4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		324E584D5A1D4873BF0A2058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks,/Users/jamine/Documents/GitHub/CS148/external/SDL2/osx);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SHADER_PATH=/Users/jamine/Documents/GitHub/CS148/shaders'","'ASSET_PATH=/Users/jamine/Documents/GitHub/CS148/assets'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamine/Documents/GitHub/CS148/.,/Users/jamine/Documents/GitHub/CS148/./external/glm,/Users/jamine/Documents/GitHub/CS148/./external/glew/include,/Users/jamine/Documents/GitHub/CS148/./external/assimp/include,/Users/jamine/Documents/GitHub/CS148/./external/freeimage/distrib/osx);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jamine/Documents/GitHub/CS148/external/SDL2/osx;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "         -Wall -std=c++11 -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework SDL2 /Users/jamine/Documents/GitHub/CS148/external/glew/distrib/osx/lib/libGLEW.a /Users/jamine/Documents/GitHub/CS148/external/assimp/distrib/osx/libassimp.dylib /Users/jamine/Documents/GitHub/CS148/external/freeimage/distrib/osx/libfreeimage.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cs148opengl4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		38B794106BF44AE8A111E902 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		488C37F466A342D5A61C135D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks,/Users/jamine/Documents/GitHub/CS148/external/SDL2/osx);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SHADER_PATH=/Users/jamine/Documents/GitHub/CS148/shaders'","'ASSET_PATH=/Users/jamine/Documents/GitHub/CS148/assets'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamine/Documents/GitHub/CS148/.,/Users/jamine/Documents/GitHub/CS148/./external/glm,/Users/jamine/Documents/GitHub/CS148/./external/glew/include,/Users/jamine/Documents/GitHub/CS148/./external/assimp/include,/Users/jamine/Documents/GitHub/CS148/./external/freeimage/distrib/osx);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jamine/Documents/GitHub/CS148/external/SDL2/osx;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG       -Wall -std=c++11 -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework SDL2 /Users/jamine/Documents/GitHub/CS148/external/glew/distrib/osx/lib/libGLEW.a /Users/jamine/Documents/GitHub/CS148/external/assimp/distrib/osx/libassimp.dylib /Users/jamine/Documents/GitHub/CS148/external/freeimage/distrib/osx/libfreeimage.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cs148opengl4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		58C87C246C084554B6A28BAF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		A4B6BBAADDBC4A5CAB3C39E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B73911D016CB48B1A8AB3654 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BE93A86DF70F41F3992A1766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BFD24004EE3244E3A5BE9D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build/build;
+			};
+			name = Release;
+		};
+		D6112FE4DB5943A4BE5EDC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build/build;
+			};
+			name = Debug;
+		};
+		E48A1CABA39C4F78BCCDC7EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build/build;
+			};
+			name = MinSizeRel;
+		};
+		E4F030C05636433B9552468A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F2F033CFB6FF4F0BB2643194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamine/Documents/GitHub/CS148/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E1B857B5364F38A8E380CE /* Build configuration list for PBXProject "cs148-opengl4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6112FE4DB5943A4BE5EDC5E /* Debug */,
+				BFD24004EE3244E3A5BE9D0F /* Release */,
+				E48A1CABA39C4F78BCCDC7EA /* MinSizeRel */,
+				58C87C246C084554B6A28BAF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		08E009CC31B74A3D96946248 /* Build configuration list for PBXNativeTarget "cs148opengl4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324E584D5A1D4873BF0A2058 /* Debug */,
+				488C37F466A342D5A61C135D /* Release */,
+				2746EE7178FD44E199B19A0B /* MinSizeRel */,
+				17AD88B6F88948D2992E0444 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D228B72B9C7C409FB82A7E92 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE93A86DF70F41F3992A1766 /* Debug */,
+				A4B6BBAADDBC4A5CAB3C39E2 /* Release */,
+				B73911D016CB48B1A8AB3654 /* MinSizeRel */,
+				0B0B8BF756184B5C90D0099C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6A14D40EC3E4FB3AAD244B0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B628D4DF554C5BBE44FFE9 /* Debug */,
+				F2F033CFB6FF4F0BB2643194 /* Release */,
+				E4F030C05636433B9552468A /* MinSizeRel */,
+				38B794106BF44AE8A111E902 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE119D0766C1488E83FF1CE4 /* Project object */;
+}
