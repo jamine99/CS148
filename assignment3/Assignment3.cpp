@@ -29,12 +29,14 @@ glm::vec2 Assignment3::GetWindowSize() const
 
 void Assignment3::SetupScene()
 {
-    SetupExample1();
+    SetupExample3();
 }
 
 void Assignment3::SetupCamera()
 {
-    camera->Translate(glm::vec3(0.f, 0.f, 10.f));
+    camera->Translate(glm::vec3(-2.f, 20.f, 80.f));
+    camera->Rotate(glm::vec3(1.f,0.f,0.f), -.5);
+    camera->Rotate(glm::vec3(0.f,1.f,0.f), .3);
 }
 
 void Assignment3::HandleInput(SDL_Keysym key, Uint32 state, Uint8 repeat, double timestamp, double deltaTime)
@@ -175,6 +177,48 @@ void Assignment3::SetupExample2()
     std::unique_ptr<LightProperties> lightProperties = make_unique<LightProperties>();
     lightProperties->diffuseColor = glm::vec4(0.5f, 0.5f, 0.5f, 1.f);
 
+    pointLight = std::make_shared<Light>(std::move(lightProperties));
+    pointLight->SetPosition(glm::vec3(0.f, 0.f, 10.f));
+    scene->AddLight(pointLight);
+}
+
+void Assignment3::SetupExample3()
+{
+    scene->ClearScene();
+#ifndef DISABLE_OPENGL_SUBROUTINES
+    std::unordered_map<GLenum, std::string> shaderSpec = {
+        { GL_VERTEX_SHADER, "brdf/blinnphong/frag/blinnphong.vert" },
+        { GL_FRAGMENT_SHADER, "brdf/blinnphong/frag/blinnphong.frag"}
+    };
+#else
+    std::unordered_map<GLenum, std::string> shaderSpec = {
+        { GL_VERTEX_SHADER, "brdf/blinnphong/frag/noSubroutine/blinnphong.vert" },
+        { GL_FRAGMENT_SHADER, "brdf/blinnphong/frag/noSubroutine/blinnphong.frag"}
+    };
+#endif
+    std::shared_ptr<BlinnPhongShader> shader = std::make_shared<BlinnPhongShader>(shaderSpec, GL_FRAGMENT_SHADER);
+    shader->SetDiffuse(glm::vec4(0.8f, 0.8f, 0.8f, 1.f));
+    shader->SetAmbient(glm::vec4(0.5f));
+    
+    std::vector<std::shared_ptr<RenderingObject>> hatTemplate = MeshLoader::LoadMesh(shader, "ObjHat.obj");
+    if (hatTemplate.empty()) {
+        std::cerr << "ERROR: Failed to load the model. Check your paths." << std::endl;
+        return;
+    }
+    std::vector<std::shared_ptr<RenderingObject>> stoolTemplate = MeshLoader::LoadMesh(shader, "jamineStool.obj");
+    if (stoolTemplate.empty()) {
+        std::cerr << "ERROR: Failed to load the model. Check your paths." << std::endl;
+        return;
+    }
+    hatObject = std::make_shared<SceneObject>(hatTemplate);
+    stoolObject = std::make_shared<SceneObject>(stoolTemplate);
+    scene->AddSceneObject(hatObject);
+    scene->AddSceneObject(stoolObject);
+    
+    
+    std::unique_ptr<LightProperties> lightProperties = make_unique<LightProperties>();
+    lightProperties->diffuseColor = glm::vec4(0.5f, 0.5f, 0.5f, 1.f);
+    
     pointLight = std::make_shared<Light>(std::move(lightProperties));
     pointLight->SetPosition(glm::vec3(0.f, 0.f, 10.f));
     scene->AddLight(pointLight);

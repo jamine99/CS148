@@ -26,7 +26,12 @@ private:
     virtual void SetupExample1();
 
     virtual void SetupCamera();
-
+    
+    GLuint progID;
+    GLuint vao;
+    
+    GLfloat time = 0;
+    
     std::shared_ptr<class SceneObject> sceneObject;
 
     std::shared_ptr<class Light> pointLight;

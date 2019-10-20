@@ -25,10 +25,15 @@ private:
 
     virtual void SetupExample1();
     virtual void SetupExample2();
+    virtual void SetupExample3();
 
     virtual void SetupCamera();
 
     std::shared_ptr<class SceneObject> sceneObject;
+    
+    std::shared_ptr<class SceneObject> hatObject;
+    
+    std::shared_ptr<class SceneObject> stoolObject;
 
     std::shared_ptr<class Light> pointLight;
 };
